@@ -1,0 +1,36 @@
+	body{
+	  background-color: #f3f3f3;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	
+	.col-padded1 {
+	  padding: 40px;
+	  background-color: #F7F7F7;
+	  border: 1px solid #DDD;
+	}
+
+	.col-padded2 {
+	  padding: 35px;
+	  background-color: #fbfbfb;
+	  border: 1px solid #DDD;
+	}
+	.row-edge{
+		margin-top:20px;
+	}
+	.div-bg-color {
+    background-color: #fbfbfb;
+	}
+	.bar_properties-bg-color {
+    background-color: #1e1e1e;
+	}
+	.bar_properties-fg-color {
+     color: #ffffff;
+	}
+	
+	.golge:hover{
+		-webkit-box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+		-moz-box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+		 box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+	}
+		

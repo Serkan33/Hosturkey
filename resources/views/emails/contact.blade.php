@@ -1,0 +1,42 @@
+<table>
+  <tr>
+    <td>
+      <strong>Ad:</strong>
+    </td>
+    <td>
+        {{$name}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>E-mail:</strong>
+    </td>
+    <td>
+      {{$email}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Mobil:</strong>
+    </td>
+    <td>
+      {{$mobil}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Mesaj:</strong>
+    </td>
+    <td>
+      {{$bodymessage}}
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Ilan No:</strong>
+    </td>
+    <td>
+      {{$ev_id}}
+    </td>
+  </tr>
+</table>

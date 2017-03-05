@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background: #153f4c;
+    color: #FFF;
+
+}
+.list-style{
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.list-loc{
+    display: block;
+    float: right;
+    padding: 10px;
+}
+.list-style a{
+    color: #FFFFFF;
+}
+.home-page{
+
+    background-image: url('https://cdn.pursuitist.com/wp-content/uploads/2013/08/Celine-Dion-puts-Jupiter-Island-estate-on-market-for-72.5-million-1152x759.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 90%;
+    padding: 0;
+    margin: 0;
+
+}
+.menu li:hover{
+    background: #5bc0de;
+    text-decoration: underline;
+}
+.navstyle{
+    background: transparent;border: none;
+    color: #FFFFFF;
+
+}
+.renk:hover{
+      text-decoration: underline;
+
+}
+
+.beyaz li a {
+    color:#FFFFFF;
+}
+.margin_space{
+    margin:0;
+}
+.search_box{
+    padding-bottom: 35px;
+    z-index: 10;
+    max-width: 750px;
+    margin: 0 auto;
+    position: absolute;
+}
+.search__advanced{
+
+    background-color: #fff;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 10px 12px rgba(0,0,0,.3);
+    padding: 20px 23px 35px;
+    border-top: 1px solid #eee;
+    z-index: 10;
+    margin: 0 auto;
+
+}
+
+.textbox{
+    height: 25px;
+    width: 275px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #dddddd;
+    outline:0;
+
+}
+.property-container{
+    padding: 10px;
+}
+.golge:hover{
+    -webkit-box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+    -moz-box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+     box-shadow: 2px -1px 27px -2px rgba(0,0,0,0.68);
+}
+.fiyat{
+    position: absolute;
+    color: #FFFFFF;
+    float: left;
+    padding: 30px 20px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    width: 100%;
+    left: 0;
+    margin-top:-63px ;
+
+}
+.search_box1{
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+    z-index: 10;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.home-boxes{
+
+
+    padding-bottom: 35px;
+    z-index: 10;
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.input-border{
+    width: 100%;
+    height: 38px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #808080;
+    border-radius: 0;
+}
+.col-padded1 {
+    padding: 35px;
+    background-color: #F7F7F7;
+    border: 1px solid #DDD;
+}
+
+.col-padded2 {
+    padding: 35px;
+    background-color: #fbfbfb;
+    border: 1px solid #DDD;
+}
+.row-edge{
+    margin-top:20px;
+}
+.hidden {
+    visibility: hidden
+}
+.detail-info {
+    float: right;
+    background-color: #585858;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+.flat-slider.ui-corner-all,
+.flat-slider .ui-corner-all {
+    border-radius: 0;
+}
+
+.flat-slider.ui-slider {
+    border: 0;
+    background: #f7d2cc;
+    border-radius: 7px;
+}
+
+.flat-slider.ui-slider-horizontal {
+    height: 6px;
+}
+
+.flat-slider.ui-slider-vertical {
+    height: 15em;
+    width: 6px;
+}
+
+.flat-slider .ui-slider-handle {
+    width: 20px;
+    height: 20px;
+    background: #38b11f;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-handle {
+    top: 50%;
+    margin-top: -10px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-handle {
+    left: 50%;
+    margin-left: -10px;
+}
+
+.flat-slider .ui-slider-handle:hover {
+    opacity: .8;
+}
+
+.flat-slider .ui-slider-range {
+    border: 0;
+    border-radius: 7;
+    background: #03a9f4;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 6px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 6px;
+}
+.radio-group label {
+    overflow: hidden;
+} .radio-group input {
+      /* This is on purpose for accessibility. Using display: hidden is evil.
+      This makes things keyboard friendly right out tha box! */
+      height: 1px;
+      width: 1px;
+
+      top: -10px;
+  } .radio-group .not-active  {
+        color: #3276b1;
+        background-color: #fff;
+    }
+
+.heart{
+    color: #a90707;
+}
+
+.layout { padding: 50px; font-family: Georgia, serif; }
+.layout-slider { margin-bottom: 30px; width: 100%;padding-top: 5px }
+.layout-slider-settings { font-size: 30px; padding-bottom: 10px; }
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(/img/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+.header-social{
+  margin-right: 30px;
+}
+.header-social li a:hover{
+  color:#ddd;
+}
+.linkler li {
+  background: #000;
+  float: left;
+}
+.property-header{
+  background: #fbfbfb;
+  border:  1px solid #DDD;
+  border-bottom: none;
+  margin: 0;
+
+}
+.property-header li {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+
+
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.txtHighLight {
+    font-size: 14px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #03A9F4;
+    background: transparent;
+}
+
+    .txtHighLight:focus {
+        outline: none;
+    }
+
+/* LABEL ======================================= */
+ .txtLabel {
+    color:#777;
+    font-size: 15px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.txtHighLight:focus ~ .txtLabel, .txtHighLight:valid ~  .txtLabel {
+    top: -15px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+    .bar:before, .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #03A9F4;
+        transition: 500ms   ease all;
+        -moz-transition: 500ms ease all;
+        -webkit-transition: 500ms ease all;
+    }
+
+    .bar:before {
+        left: 50%;
+    }
+
+    .bar:after {
+        right: 50%;
+    }
+
+
+
+/* active state */
+.txtHighLight:focus ~ .bar:before, .txtHighLight:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+.txtHighLight:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #2caab3;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #2caab3;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #2caab3;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+
+#panel {
+    border: 1px solid rgb(200, 200, 200);
+    background: #fbfbfb;
+    border-radius: 4px;
+    top: 50px;
+}
+
+.link{
+  border:solid 1px #ddd;margin-bottom:10px;background:#f8fdff;
+  
+}
+.link:hover{
+  -webkit-box-shadow: -1px 1px 12px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 12px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 12px -2px rgba(0,0,0,0.75);
+}

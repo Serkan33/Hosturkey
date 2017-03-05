@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8"> 
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link href="lightGallery-master/dist/css/lightgallery.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+   
+
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="js/lightgallery.js"></script>
+        <script src="js/lg-fullscreen.js"></script>
+        <script src="js/lg-thumbnail.js"></script>
+        <script src="js/lg-video.js"></script>
+        <script src="js/lg-autoplay.js"></script>
+        <script src="js/lg-zoom.js"></script>
+        <script src="js/lg-hash.js"></script>
+        <script src="js/lg-pager.js"></script>
+        <script src="lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+  <style>
+	body{
+	  background-color: #f3f3f3;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	
+	.col-padded1 {
+	  padding: 35px;
+	  background-color: #F7F7F7;
+	  border: 1px solid #DDD;
+	}
+
+	.col-padded2 {
+	  padding: 35px;
+	  background-color: #fbfbfb;
+	  border: 1px solid #DDD;
+	}
+	.row-edge{
+		margin-top:20px;
+	}
+	.hidden {
+    visibility: hidden
+	}
+	.detail-info {
+    float: right;
+    background-color: #585858;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 2px;
+    margin-top: -2px;
+    text-transform: uppercase;
+	}
+
+  </style>
+	
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row ">   
+    <div class="col-sm-8" >
+       <div class="  col-padded1">
+			 <ul id="lightgallery" class="list-unstyled row">
+                <li  data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                    <a href="">
+                        <img class="img-responsive " src="img/thumb-1.jpg">
+                    </a>
+                </li>
+                <li   data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive hidden" src="img/thumb-2.jpg">
+                    </a>
+                </li>
+                <li   data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800" data-src="img/13-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive hidden" src="img/thumb-13.jpg">
+                    </a>
+                </li>
+                <li  data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+                    <a href="">
+                        <img class="img-responsive hidden" src="img/thumb-4.jpg">
+                    </a>
+                </li>
+            </ul>
+	   
+		
+			  <strong height="250">$1,175,000</strong>
+			<small>Est. Mortgage: $5,328/month</small>
+							<span></span>
+               <button type="button" class="btn detail-info">For Sale</button>
+                
+			<table class="table table-striped">
+				<tbody>
+				  <tr>
+					<td ><strong>Ownership Type<strong> </td>
+					<td ><small>Villa</small></td>
+					<td><strong>Property Area<strong> </td>
+					<td><small> 2435+ sqft</small></td> 
+				  </tr>
+				 <tr>
+					<td><strong>Garages<strong> </td>
+					<td><small> 04</small></td>
+					<td><strong>Floors<strong> </td>
+					<td><small>03</small></td> 
+				  </tr>
+				   <tr>
+					<td><strong>Bedrooms<strong> </td>
+					<td><small>06</small></td>
+					<td><strong>Bathrooms<strong> </td>
+					<td><small>06</small></td> 
+				  </tr>
+				</tbody>
+			  </table>
+	   </div>
+	<div class="row-edge col-padded1">
+	<h5><strong>Amenities</strong></h5>
+		<button type="button" class="btn btn-default">RIVER VIEWS</button>
+		<button type="button" class="btn btn-primary">FULL-TIME DOORMAN</button>
+		<button type="button" class="btn btn-success">COMMON ROOF DECK</button>
+		<button type="button" class="btn btn-info">CITY VIEWS</button>
+		<button type="button" class="btn btn-warning">GYM</button>
+		<button type="button" class="btn btn-danger ">SAUNA</button>
+	</div>
+	
+	
+	  <div class="row-edge  col-padded1">
+	 <h5><strong>Property Overview</strong></h5> 
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+	 odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+	 Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+    <p>Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+	 Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus,
+	 tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id 
+	ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla.</p>
+	</div>
+	
+	 <div class="row-edge  col-padded1">
+	 <h5><strong>Map</strong></h5> 
+	 <img class="img-responsive " src="img/map.png">
+	</div>
+	   
+    </div>
+	<div class="col-sm-4" >
+			<div class=" col-padded2">
+			  <strong>Inquire this Proeprty</strong><br/>
+			  <small>Call us now or send us your information</small>
+			  <button type="button" class="btn btn-danger fa fa-phone" style="width:80%;"> +1-541-754-3010</button>
+
+				<form>
+				<div class="form-group">
+				  <label for="name">Name</label>
+				 <input class="w3-input w3-animate-input w3-text-black" type="text" style="width:70%; height:25px;">
+				</div>
+				<div class="form-group">
+				  <label for="mail">Mail</label>
+				 <input class="w3-input w3-animate-input   w3-text-black" type="text" style="width:70%; height:25px;">
+				</div>
+				<div class="form-group">
+				  <label for="phone">Contact Number</label>
+				 <input class="w3-input w3-animate-input  w3-text-black" type="text" style="width:70%; height:25px;">
+				</div>
+				<div class="form-group">
+				  <label for="message">Message</label>
+				 <input class="w3-input w3-animate-input  w3-text-black" type="text" style="width:70%; height:25px;">
+				</div>
+				<button type="submit" class="btn btn-primary" style="width:70%;">Submit</button>
+			  </form>
+			</div>
+			
+		  <div class=" col-padded2 row-edge">
+			  <strong>Others</strong><br/>
+			   
+			   <div class="row">
+				   <a href="">
+					  <div class="col-md-4" >
+						<img class="img-responsive " src="img/thumb-1.jpg">
+					  </div>
+					   <div class="col-md-8" >
+						  <strong>Fusce dapibus tell ...</strong>
+						  <small>$910,300 . 03 Beds . 02 Baths</small>
+					  </div>
+				   </a>
+			  </div>
+			 
+			  
+		</div>
+	</div>
+  </div>
+  
+</div>
+
+</body>
+</html>
